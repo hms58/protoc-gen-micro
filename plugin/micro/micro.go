@@ -8,7 +8,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	pb "github.com/golang/protobuf/protoc-gen-go/descriptor"
-	"github.com/micro/protoc-gen-micro/v2/generator"
+	"github.com/hms58/protoc-gen-micro/v2/generator"
 	options "google.golang.org/genproto/googleapis/api/annotations"
 )
 
