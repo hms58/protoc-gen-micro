@@ -439,6 +439,8 @@ func New() *Generator {
 	g.Buffer = new(bytes.Buffer)
 	g.Request = new(plugin.CodeGeneratorRequest)
 	g.Response = new(plugin.CodeGeneratorResponse)
+
+	SetSupportedFeaturesOnCodeGeneratorResponse(g.Response)
 	return g
 }
 
